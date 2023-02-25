@@ -1,6 +1,47 @@
-
+:root{
+    --backgraund-color: #EEEFF1;
+    --main-color: #000;
+    --paragraf-color: #727272;
+    --color-white: #fff;
+    --primary-color: #34547A;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.64;
+    background-color: var(--backgraund-color);
+}
+
+.menu a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.menu li{
+    float: left;
+    margin-right: 42px;
+    overflow: hidden;
+}
+
+.menu{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 400px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.menu .active{
+    color: var(--primary-color);
+}
+
+.about-me{
+    background-color: var(--color-white);
+}
+
+.projects{
+    background-color: var(--primary-color);
+    
 }
 
