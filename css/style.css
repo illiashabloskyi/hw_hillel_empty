@@ -12,6 +12,7 @@ body{
     font-size: 16px;
     line-height: 1.64;
     background-color: var(--backgraund-color);
+    margin: 0;
 }
 
 .menu a{
@@ -62,6 +63,7 @@ button{
 .about-me{
     background-color: var(--color-white);
     height: 360px;
+    margin-bottom: 0;
 }
 
 .section-title{
@@ -80,6 +82,5 @@ button{
 
 .projects{
     background-color: var(--primary-color);
-    
 }
 
