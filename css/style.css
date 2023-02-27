@@ -115,3 +115,45 @@ button{
 .box-text p{
     margin-top: 0;
 }
+
+.work-title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.work-paragraf{
+    text-align: center;
+    color: var(--paragraf-color);
+    margin-top: 50px;
+    margin-bottom: 58px;
+}
+
+iframe{
+    margin-left: 405px;
+    margin-bottom: 100px;
+}
+
+footer{
+    background-color: var(--primary-color);
+    height: 150px;
+}
+
+footer h3{
+    font-weight: 500;
+    color: var(--color-white);
+    font-size: 21px;
+    line-height: 1.17;
+    padding-top: 50px;
+    margin-left: 404px;
+}
+
+footer p{
+    font-size: 13px;
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-left: 404px;
+}
+
