@@ -6,6 +6,10 @@
     --primary-color: #34547A;
 }
 
+html{
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
